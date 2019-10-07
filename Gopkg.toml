@@ -1,0 +1,12 @@
+[[constraint]]
+  branch = "master"
+  name = "github.com/kylelemons/godebug"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/logrusorgru/aurora"
+
+[[constraint]]
+  branch = "v2"
+  name = "gopkg.in/yaml.v2"
+
