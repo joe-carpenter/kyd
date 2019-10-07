@@ -6,8 +6,9 @@ The tool will match up and compare the individual manifests between the two file
 ## Installation
 
 ```bash
-go build . && \
-mv ./kyd /usr/local/bin/
+go get github.com/joe-carpenter/kyd && \
+go build ${GOPATH}/src/github.com/joe-carpenter/kyd && \
+mv kyd /usr/local/bin/
 ```
 
 ## Usage
