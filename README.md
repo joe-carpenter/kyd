@@ -6,7 +6,6 @@ The tool will match up and compare the individual manifests between the two file
 ## Installation
 
 ```bash
-dep ensure && \
 go build . && \
 mv ./kyd /usr/local/bin/
 ```
